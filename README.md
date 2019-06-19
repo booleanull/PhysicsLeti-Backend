@@ -13,16 +13,15 @@
 
 ## What is PhysicsLeti?
 PhysicsLeti is a client server application for interaction between several user groups: Administrator, User, and Teacher. This system allows you to facilitate the educational process for students studying physics.
-```
-### All users
-Users can register in the system, change their password, request a request for restoration. Actions are logged to the mail user.
 
-### Administrator
-The administrator can accept new users, add new jobs, bind teachers to groups of users.
+* All users
+** Users can register in the system, change their password, request a request for restoration. Actions are logged to the mail user.
 
-### Teacher
-Teachers can view the work of their groups, grade them.
+* Administrator
+** The administrator can accept new users, add new jobs, bind teachers to groups of users.
 
-### User
-The user can view laboratory work, perform them.
-```
+* Teacher
+** Teachers can view the work of their groups, grade them.
+
+* User
+** The user can view laboratory work, perform them.

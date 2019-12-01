@@ -55,7 +55,7 @@ class AuthController : BaseController {
                 hibUser.restored = false
                 userManager.saveUser(hibUser)
             }
-            UserAuthorisationOkResponse("${hibUser.firstName} ${hibUser.lastName}", hibUser.type, hibUser.token)
+            UserAuthorisationOkResponse("${hibUser.firstName} ${hibUser.lastName}", hibUser.type, hibUser.token, hibUser.id)
         }, gson::toJson)
     }
 

@@ -10,4 +10,6 @@ class UserAuthorisationOkResponse(
     val type: Int,
     @Expose
     val token: String
+    @Expose
+    val id: Int
 ) : BaseOkResponse()
